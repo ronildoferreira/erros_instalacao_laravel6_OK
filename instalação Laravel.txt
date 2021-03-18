@@ -1,0 +1,85 @@
+Todos os meus passos para instalar o laravel no Linux
+
+
+  506  sudo apt update
+  507  php -v
+  508  php update
+  509  php
+  510  php -v
+  511  composer
+  512  mkdir www
+  513  cd www/
+  514  mkdir laravel_na_pratica
+  515  cd laravel_na_pratica/
+  516  cd
+  517  cd www/
+  518  cd laravel_na_pratica/
+  519  composer create-project --prefer-dist laravel/laravel SiteDinamico
+  520  cd SiteDinamico/
+  522  php artisan migrate
+  523  cd
+  524  clear
+  525  sudo apt purge remove composer
+  526  sudo apt remove composer
+  527  composer remove jenssegers/mongodb --update-with-dependencies
+  528  composer
+  529  sudo apt remove php
+  530  php -v
+  531  sudo apt remove php7
+  532  php -v
+  533  sudo apt install php7.4
+  534  sudo apt install php7
+  535  sudo apt install php7.0
+  536  php -v
+  537  sudo apt install php7.4-curl php7.4-gd php7.4-json php7.4-mbstring php7.4-mcrypt
+  538  sudo update-alternatives --set php /usr/bin/php7.0
+  539  sudo systemctl restart apache2
+  540  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  541  php composer-setup.php
+  542  chmod +x composer.phar
+  543  sudo mv composer.phar /usr/local/bin/composer
+  544  composer --version
+  545  composer diagnose
+  546  sudo composer self-update
+  547  clear
+  548  php -v
+  549  composer
+  550  git -v
+  551  git -verson
+  552  clear
+  553  mkdir www
+  554  cd www/
+  555  mkdir laravel_na_pratica
+  556  cd laravel_na_pratica/
+  557  clear
+  558  composer create-project --prefer-dist laravel/laravel SiteDinamico
+  559  composer self-update
+  560  cd
+  561  sudo apt-get install php-mbstring 
+  562  cd www/
+  563  cd laravel_na_pratica/
+  564  cd
+  565  cd www/
+  566  cd laravel_na_pratica/
+  567  composer create-project --prefer-dist laravel/laravel SiteDinamico
+  568  ls
+  569  cd SiteDinamico/
+  570  ls
+  571  php artisan serve
+  572  cd
+  573  sudo apt-get update
+  574  sudo apt-get install php-mbstring 
+  575  sudo apt-get install php-xml
+  576  php -v
+  577  cd www/
+  578  cd laravel_na_pratica/
+  579  ls
+  580  rm -r SiteDinamico/
+  581  ls
+  582  composer create-project --prefer-dist laravel/laravel SiteDinamico
+  583  php artisan serve
+  584  ls
+  585  cd SiteDinamico/
+  586  php artisan serve
+  587  cd
+  588  history
