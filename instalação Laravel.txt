@@ -1,6 +1,15 @@
 Todos os meus passos para instalar o laravel no Linux
 
 
+Todos os meus passos para instalar o laravel no Linux
+
+        para iniciar o shell $SHELL -l
+
+        para criar um projeto Laravel: composer create-project --prefer-dist laravel/laravel SiteDinamico
+
+        esse resto de codigo é para achar erros
+
+
   506  sudo apt update
   507  php -v
   508  php update
